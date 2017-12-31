@@ -1,0 +1,18 @@
+{"name":"Animals",
+"NodeList":[
+{"name":"Animal","stateCount":5,"stateLabels":["monkey","penguin","platypus","robin","turtle"],"matrixLabels":["not yet defined"],"isInstantiated":false,"isRootNode":true,"CPT":{"matrix":[[1,0,0,0,0],[0,1,0,0,0],[0,0,1,0,0],[0,0,0,1,0],[0,0,0,0,1]],"rowCount":5,"columnCount":5}},
+{"name":"Environment","stateCount":3,"stateLabels":["air","land","water"],"matrixLabels":["+Animal:monkey","+Animal:penguin","+Animal:platypus","+Animal:robin","+Animal:turtle"],"isInstantiated":false,"isRootNode":false,"CPT":{"matrix":[[0,0,0,0.5,0],[1,0.5,0,0.5,0.5],[0,0.5,1,0,0.5]],"rowCount":3,"columnCount":5}},
+{"name":"Class","stateCount":3,"stateLabels":["bird","mammal","reptile"],"matrixLabels":["+Animal:monkey+Speed:Fast","+Animal:monkey+Speed:Slow","+Animal:penguin+Speed:Fast","+Animal:penguin+Speed:Slow","+Animal:platypus+Speed:Fast","+Animal:platypus+Speed:Slow","+Animal:robin+Speed:Fast","+Animal:robin+Speed:Slow","+Animal:turtle+Speed:Fast","+Animal:turtle+Speed:Slow"],"isInstantiated":false,"isRootNode":false,"CPT":{"matrix":[[0,0,1,0.9,0,0,1,0.6,0,0],[1,0.9,0,0.1,1,0.9,0,0.4,0,0.6],[0,0.1,0,0,0,0.1,0,0,1,0.4]],"rowCount":3,"columnCount":10}},
+{"name":"HasShell","stateCount":2,"stateLabels":["true","false"],"matrixLabels":["+Animal:monkey","+Animal:penguin","+Animal:platypus","+Animal:robin","+Animal:turtle"],"isInstantiated":false,"isRootNode":false,"CPT":{"matrix":[[0,0,0,0,1],[1,1,1,1,0]],"rowCount":2,"columnCount":5}},
+{"name":"BearsYoungAs","stateCount":2,"stateLabels":["live","egg"],"matrixLabels":["+Animal:monkey","+Animal:penguin","+Animal:platypus","+Animal:robin","+Animal:turtle"],"isInstantiated":false,"isRootNode":false,"CPT":{"matrix":[[1,0,0,0,0],[0,1,1,1,1]],"rowCount":2,"columnCount":5}},
+{"name":"WarmBlooded","stateCount":2,"stateLabels":["true","false"],"matrixLabels":["+Class:bird","+Class:mammal","+Class:reptile"],"isInstantiated":false,"isRootNode":false,"CPT":{"matrix":[[1,1,0],[0,0,1]],"rowCount":2,"columnCount":3}},
+{"name":"BodyCovering","stateCount":3,"stateLabels":["fur","feathers","scales"],"matrixLabels":["+Class:bird","+Class:mammal","+Class:reptile"],"isInstantiated":true,"isRootNode":false,"CPT":{"matrix":[[0,1,0],[1,0,0],[0,0,1]],"rowCount":3,"columnCount":3}},
+{"name":"Speed","stateCount":2,"stateLabels":["Fast","Slow"],"matrixLabels":["not yet defined"],"isInstantiated":true,"isRootNode":true,"CPT":{"matrix":[[1,0],[0,1]],"rowCount":2,"columnCount":2}}],
+"LinkList":[
+{"endpointnames":["Animal","Environment"]},
+{"endpointnames":["Animal","Class"]},
+{"endpointnames":["Animal","HasShell"]},
+{"endpointnames":["Animal","BearsYoungAs"]},
+{"endpointnames":["Speed","Class"]},
+{"endpointnames":["Class","WarmBlooded"]},
+{"endpointnames":["Class","BodyCovering"]}]}
