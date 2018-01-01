@@ -1,0 +1,89 @@
+{
+	"name": "AbstractNetwork_1",
+	"NodeList": [{
+			"name": "It Is Snowing",
+			"stateCount": 2,
+			"stateLabels": ["true", "false"],
+			"isInstantiated": false,
+			"isRootNode": true,
+			"CPT": {
+				"matrix": [
+					[1, 0],
+					[0, 1]
+				],
+				"rowCount": 2,
+				"columnCount": 2
+			},
+			"Posterior": {
+				"vector": [0.1, 0.9],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [0.1, 0.9],
+				"size": 2
+			}
+		},
+		{
+			"name": "You Are Cold",
+			"stateCount": 2,
+			"stateLabels": ["true", "false"],
+			"isInstantiated": false,
+			"isRootNode": false,
+			"CPT": {
+				"matrix": [
+					[1, 0.4],
+					[0, 0.6]
+				],
+				"rowCount": 2,
+				"columnCount": 2
+			},
+			"Posterior": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
+		},
+		{
+			"name": "You Are Late",
+			"stateCount": 2,
+			"stateLabels": ["true", "false"],
+			"isInstantiated": false,
+			"isRootNode": false,
+			"CPT": {
+				"matrix": [
+					[0.9, 0.2],
+					[0.1, 0.8]
+				],
+				"rowCount": 2,
+				"columnCount": 4
+			},
+			"Posterior": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
+		}
+	],
+	"LinkList": [{
+		"endpointnames": ["It Is Snowing", "You Are Cold"],
+		"endpointnames": ["It Is Snowing", "You Are Late"]
+	}]
+}
