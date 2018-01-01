@@ -8,7 +8,7 @@
 			"isRootNode": true,
 			"CPT": {
 				"matrix": [
-					[1, 0],a
+					[1, 0],
 					[0, 1]
 				],
 				"rowCount": 2,
