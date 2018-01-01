@@ -30,7 +30,7 @@
 		{
 			"name": "Studied For Test",
 			"stateCount": 2,
-			"stateLabels": ["studied_hard", "studied_little"],
+			"stateLabels": ["studied hard", "studied little"],
 			"isInstantiated": false,
 			"isRootNode": true,
 			"CPT": {
@@ -62,8 +62,8 @@
 			"isRootNode": false,
 			"CPT": {
 				"matrix": [
-					[1, 0.2, 1, 1],
-					[0, 0.8, 0, 0]
+					[0.9, 0.55, 0.7, 0.3],
+					[0.1, 0.45, 0.3, 0.7]
 				],
 				"rowCount": 2,
 				"columnCount": 4
