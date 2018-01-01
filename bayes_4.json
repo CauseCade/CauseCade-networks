@@ -83,7 +83,10 @@
 		}
 	],
 	"LinkList": [{
-		"endpointnames": ["It Is Snowing", "You Are Cold"],
-		"endpointnames": ["It Is Snowing", "You Are Late"]
-	}]
+			"endpointnames": ["It Is Snowing", "You Are Cold"]
+		},
+		{
+			"endpointnames": ["It Is Snowing", "You Are Late"]
+		}
+	]
 }

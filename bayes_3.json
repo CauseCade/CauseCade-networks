@@ -62,8 +62,8 @@
 			"isRootNode": false,
 			"CPT": {
 				"matrix": [
-					[1, 0.2,1,1],
-					[0, 0.8,0,0]
+					[1, 0.2, 1, 1],
+					[0, 0.8, 0, 0]
 				],
 				"rowCount": 2,
 				"columnCount": 4
@@ -83,7 +83,10 @@
 		}
 	],
 	"LinkList": [{
-		"endpointnames": ["Bonus Assignment", "Passed The Course"],
-		"endpointnames": ["Studied For Test", "Passed The Course"]
-	}]
+			"endpointnames": ["Bonus Assignment", "Passed The Course"]
+		},
+		{
+			"endpointnames": ["Studied For Test", "Passed The Course"]
+		}
+	]
 }

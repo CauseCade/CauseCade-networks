@@ -1,7 +1,7 @@
 {
 	"name": "AbstractNetwork_1",
 	"NodeList": [{
-			"name": "Coin_1",
+			"name": "Coin 1",
 			"stateCount": 2,
 			"stateLabels": ["heads", "tails"],
 			"isInstantiated": false,
@@ -28,7 +28,7 @@
 			}
 		},
 		{
-			"name": "Coin_2",
+			"name": "Coin 2",
 			"stateCount": 2,
 			"stateLabels": ["heads", "tails"],
 			"isInstantiated": false,
@@ -62,8 +62,8 @@
 			"isRootNode": false,
 			"CPT": {
 				"matrix": [
-					[1, 0,1,0],
-					[0, 1,0,1]
+					[1, 0, 1, 0],
+					[0, 1, 0, 1]
 				],
 				"rowCount": 2,
 				"columnCount": 4
@@ -83,7 +83,10 @@
 		}
 	],
 	"LinkList": [{
-		"endpointnames": ["Coin_1", "Same Faces Up"],
-		"endpointnames": ["Coin_2", "Same Faces Up"]
-	}]
+			"endpointnames": ["Coin 1", "Same Faces Up"]
+		},
+		{
+			"endpointnames": ["Coin 2", "Same Faces Up"]
+		}
+	]
 }
