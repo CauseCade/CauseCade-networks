@@ -1,7 +1,7 @@
 {
 	"name": "Rainy_Day",
 	"NodeList": [{
-			"name": "(A)Weather",
+			"name": "A\Weather",
 			"stateCount": 2,
 			"stateLabels": ["Rainy", "No_rain"],
 			"isInstantiated": false,
@@ -28,7 +28,7 @@
 			}
 		},
 		{
-			"name": "(B)MeasuringStation",
+			"name": "B\MeasuringStation",
 			"stateCount": 2,
 			"stateLabels": ["High_Humidity", "Low_Humidity"],
 			"isInstantiated": false,
@@ -56,6 +56,6 @@
 		}
 	],
 	"LinkList": [{
-		"endpointnames": ["(A)Weather", "(B)MeasuringStation"]
+		"endpointnames": ["A\Weather", "B\MeasuringStation"]
 	}]
 }
