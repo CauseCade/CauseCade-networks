@@ -15,7 +15,7 @@
 				"columnCount": 2
 			},
 			"Posterior": {
-				"vector": [0.3, 0.7],
+				"vector": [0.1, 0.9],
 				"size": 2
 			},
 			"LambdaEvidence": {
@@ -23,7 +23,7 @@
 				"size": 2
 			},
 			"PiEvidence": {
-				"vector": [0.3, 0.7],
+				"vector": [0.1, 0.9],
 				"size": 2
 			}
 		},
@@ -42,7 +42,7 @@
 				"columnCount": 2
 			},
 			"Posterior": {
-				"vector": [0.5, 0.5],
+				"vector": [0.1, 0.9],
 				"size": 2
 			},
 			"LambdaEvidence": {
@@ -50,7 +50,7 @@
 				"size": 2
 			},
 			"PiEvidence": {
-				"vector": [0.5, 0.5],
+				"vector": [0.1, 0.9],
 				"size": 2
 			}
 		},
