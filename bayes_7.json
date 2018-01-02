@@ -1,0 +1,92 @@
+ {
+	"name": "Pet Peeve"
+	"NodeList": [{
+			"name": "Cat in the Room",
+			"stateCount": 2,
+			"stateLabels": ["true", "false"],
+			"isInstantiated": false,
+			"isRootNode": true,
+			"CPT": {
+				"matrix": [
+					[1, 0],
+					[0, 1]
+				],
+				"rowCount": 2,
+				"columnCount": 2
+			},
+			"Posterior": {
+				"vector": [0.3, 0.7],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [0.3, 0.7],
+				"size": 2
+			}
+		},
+		{
+			"name": "Dog in the Room",
+			"stateCount": 2,
+			"stateLabels": ["true", "false"],
+			"isInstantiated": false,
+			"isRootNode": true,
+			"CPT": {
+				"matrix": [
+					[1, 0],
+					[0, 1]
+				],
+				"rowCount": 2,
+				"columnCount": 2
+			},
+			"Posterior": {
+				"vector": [0.5, 0.5],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [0.5, 0.5],
+				"size": 2
+			}
+		},
+		{
+			"name": "Vase is broken",
+			"stateCount": 2,
+			"stateLabels": ["true", "false"],
+			"isInstantiated": false,
+			"isRootNode": false,
+			"CPT": {
+				"matrix": [
+					[0.9, 0.6, 0.75, 0],
+					[0.1, 0.4, 0.25, 1]
+				],
+				"rowCount": 2,
+				"columnCount": 4
+			},
+			"Posterior": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
+		}
+	],
+	"LinkList": [{
+			"endpointnames": ["Cat in the Room", "Vase is broken"]
+		},
+		{
+			"endpointnames": ["Dog in the Room", "Vase is broken"]
+		}
+	]
+}
