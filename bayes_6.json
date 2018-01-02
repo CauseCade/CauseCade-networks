@@ -240,7 +240,7 @@
 				"vector": [1.0, 1.0],
 				"size": 2
 			}
-		},
+		}
 	],
 	"LinkList": [{
 			"endpointnames": ["A", "B"]
