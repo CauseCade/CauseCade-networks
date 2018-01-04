@@ -1,0 +1,152 @@
+{
+	"name": "DBN Unrolled",
+	"NodeList": [{
+			"name": "S0",
+			"stateCount": 2,
+			"stateLabels": ["good", "bad"],
+			"isInstantiated": false,
+			"isRootNode": true,
+			"CPT": {
+				"matrix": [
+					[1, 0],
+					[0, 1]
+				],
+				"rowCount": 2,
+				"columnCount": 2
+			},
+			"Posterior": {
+				"vector": [0.5, 0.5],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [0.5, 0.5],
+				"size": 2
+			}
+		}, {
+			"name": "S1",
+			"stateCount": 2,
+			"stateLabels": ["good", "bad"],
+			"isInstantiated": false,
+			"isRootNode": false,
+			"CPT": {
+				"matrix": [
+					[0.8, 0.2],
+					[0.2, 0.8]
+				],
+				"rowCount": 2,
+				"columnCount": 2
+			},
+			"Posterior": {
+				"vector": [0.5, 0.5],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [0.5, 0.5],
+				"size": 2
+			}
+		}, {
+			"name": "S2",
+			"stateCount": 2,
+			"stateLabels": ["good", "bad"],
+			"isInstantiated": false,
+			"isRootNode": false,
+			"CPT": {
+				"matrix": [
+					[0.8, 0.2],
+					[0.2, 0.8]
+				],
+				"rowCount": 2,
+				"columnCount": 2
+			},
+			"Posterior": {
+				"vector": [0.5, 0.5],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
+		},
+		{
+			"name": "P1",
+			"stateCount": 3,
+			"stateLabels": ["low", "medium", "high"],
+			"isInstantiated": false,
+			"isRootNode": false,
+			"CPT": {
+				"matrix": [
+					[0.5, 0.3],
+					[0.3, 0.3],
+					[0.2, 0.4]
+				],
+				"rowCount": 3,
+				"columnCount": 2
+			},
+			"Posterior": {
+				"vector": [1.0, 1.0, 1.0],
+				"size": 3
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0, 1.0],
+				"size": 3
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0, 1.0],
+				"size": 3
+			}
+		},
+		{
+			"name": "P2",
+			"stateCount": 3,
+			"stateLabels": ["low", "medium", "high"],
+			"isInstantiated": false,
+			"isRootNode": false,
+			"CPT": {
+				"matrix": [
+					[0.5, 0.3],
+					[0.3, 0.3],
+					[0.2, 0.4]
+				],
+				"rowCount": 3,
+				"columnCount": 2
+			},
+			"Posterior": {
+				"vector": [1.0, 1.0, 1.0],
+				"size": 3
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0, 1.0],
+				"size": 3
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0, 1.0],
+				"size": 3
+			}
+		}
+	],
+	"LinkList": [{
+			"endpointnames": ["S0", "S1"]
+		},
+		{
+			"endpointnames": ["S1", "S2"]
+		},
+		{
+			"endpointnames": ["S1", "P1"]
+		},
+		{
+			"endpointnames": ["S2", "P2"]
+		}
+	]
+}
