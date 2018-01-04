@@ -137,16 +137,16 @@
 		}
 	],
 	"LinkList": [{
-			"endpointnames": ["S0", "S1"]
+			"endpointnames": ["State t0", "State t1"]
 		},
 		{
-			"endpointnames": ["S1", "S2"]
+			"endpointnames": ["State t1", "State t2"]
 		},
 		{
-			"endpointnames": ["S1", "P1"]
+			"endpointnames": ["State t1", "Patient levels t1"]
 		},
 		{
-			"endpointnames": ["S2", "P2"]
+			"endpointnames": ["State t2", "Patient levels t2"]
 		}
 	]
 }
