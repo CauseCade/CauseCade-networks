@@ -1,7 +1,7 @@
 {
 	"name": "DBN Unrolled",
 	"NodeList": [{
-			"name": "S0",
+			"name": "State t0",
 			"stateCount": 2,
 			"stateLabels": ["good", "bad"],
 			"isInstantiated": false,
@@ -27,7 +27,7 @@
 				"size": 2
 			}
 		}, {
-			"name": "S1",
+			"name": "State t1",
 			"stateCount": 2,
 			"stateLabels": ["good", "bad"],
 			"isInstantiated": false,
@@ -53,7 +53,7 @@
 				"size": 2
 			}
 		}, {
-			"name": "S2",
+			"name": "State t2",
 			"stateCount": 2,
 			"stateLabels": ["good", "bad"],
 			"isInstantiated": false,
@@ -80,7 +80,7 @@
 			}
 		},
 		{
-			"name": "P1",
+			"name": "Patient levels t1",
 			"stateCount": 3,
 			"stateLabels": ["low", "medium", "high"],
 			"isInstantiated": false,
@@ -108,7 +108,7 @@
 			}
 		},
 		{
-			"name": "P2",
+			"name": "Patient levels t2",
 			"stateCount": 3,
 			"stateLabels": ["low", "medium", "high"],
 			"isInstantiated": false,
