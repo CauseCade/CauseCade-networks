@@ -1,9 +1,9 @@
 {
 	"name": "DBN Unrolled",
 	"NodeList": [{
-			"name": "State t0",
+			"name": "Nutrition [t0]",
 			"stateCount": 2,
-			"stateLabels": ["good", "bad"],
+			"stateLabels": ["high", "low"],
 			"isInstantiated": false,
 			"isRootNode": true,
 			"CPT": {
@@ -23,19 +23,19 @@
 				"size": 2
 			},
 			"PiEvidence": {
-				"vector": [0.5, 0.5],
+				"vector": [0.6, 0.4],
 				"size": 2
 			}
 		}, {
-			"name": "State t1",
+			"name": "Nutrition [t1]",
 			"stateCount": 2,
-			"stateLabels": ["good", "bad"],
+			"stateLabels": ["high", "low"],
 			"isInstantiated": false,
 			"isRootNode": false,
 			"CPT": {
 				"matrix": [
-					[0.8, 0.2],
-					[0.2, 0.8]
+					[0.75, 0.25],
+					[0.25, 0.75]
 				],
 				"rowCount": 2,
 				"columnCount": 2
@@ -53,15 +53,15 @@
 				"size": 2
 			}
 		}, {
-			"name": "State t2",
+			"name": "Nutrition [t2]",
 			"stateCount": 2,
-			"stateLabels": ["good", "bad"],
+			"stateLabels": ["high", "low"],
 			"isInstantiated": false,
 			"isRootNode": false,
 			"CPT": {
 				"matrix": [
-					[0.8, 0.2],
-					[0.2, 0.8]
+					[0.75, 0.25],
+					[0.25, 0.75]
 				],
 				"rowCount": 2,
 				"columnCount": 2
@@ -80,16 +80,16 @@
 			}
 		},
 		{
-			"name": "Patient levels t1",
+			"name": "cAMP [t1]",
 			"stateCount": 3,
 			"stateLabels": ["low", "medium", "high"],
 			"isInstantiated": false,
 			"isRootNode": false,
 			"CPT": {
 				"matrix": [
-					[0.5, 0.3],
+					[0.5, 0.1],
 					[0.3, 0.3],
-					[0.2, 0.4]
+					[0.2, 0.6]
 				],
 				"rowCount": 3,
 				"columnCount": 2
@@ -108,16 +108,16 @@
 			}
 		},
 		{
-			"name": "Patient levels t2",
+			"name": "cAMP [t2]",
 			"stateCount": 3,
 			"stateLabels": ["low", "medium", "high"],
 			"isInstantiated": false,
 			"isRootNode": false,
 			"CPT": {
 				"matrix": [
-					[0.5, 0.3],
+					[0.5, 0.1],
 					[0.3, 0.3],
-					[0.2, 0.4]
+					[0.2, 0.6]
 				],
 				"rowCount": 3,
 				"columnCount": 2
@@ -137,16 +137,16 @@
 		}
 	],
 	"LinkList": [{
-			"endpointnames": ["State t0", "State t1"]
+			"endpointnames": ["Nutrition [t0]", "Nutrition [t1]"]
 		},
 		{
-			"endpointnames": ["State t1", "State t2"]
+			"endpointnames": ["Nutrition [t1]", "Nutrition [t2]"]
 		},
 		{
-			"endpointnames": ["State t1", "Patient levels t1"]
+			"endpointnames": ["Nutrition [t1]", "cAMP [t1]"]
 		},
 		{
-			"endpointnames": ["State t2", "Patient levels t2"]
+			"endpointnames": ["Nutrition [t2]", "cAMP [t2]"]
 		}
 	]
 }
