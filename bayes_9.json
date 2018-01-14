@@ -1,0 +1,332 @@
+{
+	"name": "Workload",
+	"NodeList": [{
+			"name": "Breakup (relationship)",
+			"stateCount": 2,
+			"stateLabels": ["true", "false"],
+			"isInstantiated": false,
+			"isRootNode": true,
+			"CPT": {
+				"matrix": [
+					[1, 0],
+					[0, 1]
+				],
+				"rowCount": 2,
+				"columnCount": 2
+			},
+			"Posterior": {
+				"vector": [0.2, 0.8],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [0.2, 0.8],
+				"size": 2
+			}
+		},{
+			"name": "Relative Lost",
+			"stateCount": 2,
+			"stateLabels": ["true", "false"],
+			"isInstantiated": false,
+			"isRootNode": true,
+			"CPT": {
+				"matrix": [
+					[1, 0],
+					[0, 1]
+				],
+				"rowCount": 2,
+				"columnCount": 2
+			},
+			"Posterior": {
+				"vector": [0.2, 0.8],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [0.05, 0.95],
+				"size": 2
+			}
+		},{
+			"name": "Financial Problems",
+			"stateCount": 2,
+			"stateLabels": ["true", "false"],
+			"isInstantiated": false,
+			"isRootNode": true,
+			"CPT": {
+				"matrix": [
+					[1, 0],
+					[0, 1]
+				],
+				"rowCount": 2,
+				"columnCount": 2
+			},
+			"Posterior": {
+				"vector": [0.2, 0.8],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [0.25, 0.75],
+				"size": 2
+			}
+		},{
+			"name": "Work Pressure",
+			"stateCount": 2,
+			"stateLabels": ["high", "low"],
+			"isInstantiated": false,
+			"isRootNode": true,
+			"CPT": {
+				"matrix": [
+					[1, 0],
+					[0, 1]
+				],
+				"rowCount": 2,
+				"columnCount": 2
+			},
+			"Posterior": {
+				"vector": [0.2, 0.8],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [0.5, 0.5],
+				"size": 2
+			}
+		},{
+			"name": "No Friends or Family",
+			"stateCount": 2,
+			"stateLabels": ["true", "false"],
+			"isInstantiated": false,
+			"isRootNode": true,
+			"CPT": {
+				"matrix": [
+					[1, 0],
+					[0, 1]
+				],
+				"rowCount": 2,
+				"columnCount": 2
+			},
+			"Posterior": {
+				"vector": [0.2, 0.8],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [0.05, 0.95],
+				"size": 2
+			}
+		},{
+			"name": "Serious Illness",
+			"stateCount": 2,
+			"stateLabels": ["true", "false"],
+			"isInstantiated": false,
+			"isRootNode": true,
+			"CPT": {
+				"matrix": [
+					[1, 0],
+					[0, 1]
+				],
+				"rowCount": 2,
+				"columnCount": 2
+			},
+			"Posterior": {
+				"vector": [0.2, 0.8],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [0.08, 0.92],
+				"size": 2
+			}
+		},{
+			"name": "Insomnia",
+			"stateCount": 2,
+			"stateLabels": ["true", "false"],
+			"isInstantiated": false,
+			"isRootNode": false,
+			"CPT": {
+				"matrix": [
+					[0.95, 0.25],
+					[0.05, 0.75]
+				],
+				"rowCount": 2,
+				"columnCount": 2
+			},
+			"Posterior": {
+				"vector": [0.2, 0.8],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
+		},{
+			"name": "Prior Stroke",
+			"stateCount": 2,
+			"stateLabels": ["true", "false"],
+			"isInstantiated": false,
+			"isRootNode": false,
+			"CPT": {
+				"matrix": [
+					[0.85, 0.1],
+					[0.15, 0.9]
+				],
+				"rowCount": 2,
+				"columnCount": 2
+			},
+			"Posterior": {
+				"vector": [0.2, 0.8],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
+		},{
+			"name": "Emotional Shock",
+			"stateCount": 2,
+			"stateLabels": ["true", "false"],
+			"isInstantiated": false,
+			"isRootNode": false,
+			"CPT": {
+				"matrix": [
+					[0.85,0.4,0.6,0],
+					[0.15, 0.6,0.4,1]
+				],
+				"rowCount": 2,
+				"columnCount": 4
+			},
+			"Posterior": {
+				"vector": [0.2, 0.8],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
+		},{
+			"name": "Depression",
+			"stateCount": 2,
+			"stateLabels": ["true", "false"],
+			"isInstantiated": false,
+			"isRootNode": true,
+			"CPT": {
+				"matrix": [
+					[0.95, 0.6,0.8,0.2],
+					[0.05, 0.4,0.2,0.8]
+				],
+				"rowCount": 2,
+				"columnCount": 4
+			},
+			"Posterior": {
+				"vector": [0.2, 0.8],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
+		},{
+			"name": "Chronic Stress",
+			"stateCount": 2,
+			"stateLabels": ["true", "false"],
+			"isInstantiated": false,
+			"isRootNode": true,
+			"CPT": {
+				"matrix": [
+					[0.99, 0.75,0.6,0.01],
+					[0.01, 0.25,0.4,0.99]
+				],
+				"rowCount": 2,
+				"columnCount": 4
+			},
+			"Posterior": {
+				"vector": [0.2, 0.8],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
+		},              
+    {
+			"name": "Suicide",
+			"stateCount": 2,
+			"stateLabels": ["true", "false"],
+			"isInstantiated": false,
+			"isRootNode": false,
+			"CPT": {
+				"matrix": [
+					[0.99, 0.95,1,1,1,1,1,1],
+					[0.01, 0.05,0,0,0,0,0,0]
+				],
+				"rowCount": 2,
+				"columnCount": 8
+			},    
+			"Posterior": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
+		}
+	],
+	"LinkList": [{
+    "endpointnames": ["Breakup (relationship)", "Emotional Shock"],
+    "endpointnames": ["Relative Lost", "Emotional Shock"],
+    "endpointnames": ["Financial Problems", "Chronic Stress"],
+    "endpointnames": ["Work Pressure", "Chronic Stress"],
+    "endpointnames": ["Chronic Stress", "Insomnia"],
+    "endpointnames": ["Serious Illness", "Prior Stroke"],
+    "endpointnames": ["Emotional Shock", "Depression"],
+    "endpointnames": ["No Friends or Family", "Depression"],
+    "endpointnames": ["Depression", "Suicide"],
+		"endpointnames": ["Chronic Stress", "Suicide"],
+   	"endpointnames": ["Prior Stroke", "Suicide"]
+	}] 
+	}]
+}
