@@ -1,0 +1,403 @@
+{
+	"name": "Pedigree",
+	"NodeList": [{
+			"name": "Male G1",
+			"stateCount": 4,
+			"stateLabels": ["AA", "aa", "Aa", "aA"],
+			"isInstantiated": false,
+			"isRootNode": true,
+			"CPT": {
+				"matrix": [
+					[1, 0],
+					[0, 1]
+				],
+				"rowCount": 2,
+				"columnCount": 2
+			},
+			"Posterior": {
+				"vector": [0.1, 0.9],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
+		},
+		{
+			"name": "Female G1",
+			"stateCount": 4,
+			"stateLabels": ["AA", "aa", "Aa", "aA"],
+			"isInstantiated": false,
+			"isRootNode": true,
+			"CPT": {
+				"matrix": [
+					[1, 0],
+					[0, 1]
+				],
+				"rowCount": 2,
+				"columnCount": 2
+			},
+			"Posterior": {
+				"vector": [0.1, 0.9],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
+		}, {
+			"name": "Male 1 G2",
+			"stateCount": 4,
+			"stateLabels": ["AA", "aa", "Aa", "aA"],
+			"isInstantiated": false,
+			"isRootNode": true,
+			"CPT": {
+				"matrix": [
+					[1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+					[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+				],
+				"rowCount": 2,
+				"columnCount": 16
+			},
+			"Posterior": {
+				"vector": [0.1, 0.9],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
+		}, {
+			"name": "Male 2 G2",
+			"stateCount": 4,
+			"stateLabels": ["AA", "aa", "Aa", "aA"],
+			"isInstantiated": false,
+			"isRootNode": true,
+			"CPT": {
+				"matrix": [
+					[1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+					[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+				],
+				"rowCount": 2,
+				"columnCount": 16
+			},
+			"Posterior": {
+				"vector": [0.1, 0.9],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
+		}, {
+			"name": "Female 1 G2",
+			"stateCount": 4,
+			"stateLabels": ["AA", "aa", "Aa", "aA"],
+			"isInstantiated": false,
+			"isRootNode": true,
+			"CPT": {
+				"matrix": [
+					[1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+					[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+				],
+				"rowCount": 2,
+				"columnCount": 16
+			},
+			"Posterior": {
+				"vector": [0.1, 0.9],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
+		}, {
+			"name": "Female 2 G2",
+			"stateCount": 4,
+			"stateLabels": ["AA", "aa", "Aa", "aA"],
+			"isInstantiated": false,
+			"isRootNode": true,
+			"CPT": {
+				"matrix": [
+					[1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+					[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+				],
+				"rowCount": 2,
+				"columnCount": 16
+			},
+			"Posterior": {
+				"vector": [0.1, 0.9],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
+		},
+		{
+			"name": "Female 1 G3a",
+			"stateCount": 4,
+			"stateLabels": ["AA", "aa", "Aa", "aA"],
+			"isInstantiated": false,
+			"isRootNode": true,
+			"CPT": {
+				"matrix": [
+					[1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+					[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+				],
+				"rowCount": 2,
+				"columnCount": 16
+			},
+			"Posterior": {
+				"vector": [0.1, 0.9],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
+		},
+		{
+			"name": "Female 2 G3a",
+			"stateCount": 4,
+			"stateLabels": ["AA", "aa", "Aa", "aA"],
+			"isInstantiated": false,
+			"isRootNode": true,
+			"CPT": {
+				"matrix": [
+					[1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+					[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+				],
+				"rowCount": 2,
+				"columnCount": 16
+			},
+			"Posterior": {
+				"vector": [0.1, 0.9],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
+		}, {
+			"name": "Male G3a",
+			"stateCount": 4,
+			"stateLabels": ["AA", "aa", "Aa", "aA"],
+			"isInstantiated": false,
+			"isRootNode": true,
+			"CPT": {
+				"matrix": [
+					[1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+					[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+				],
+				"rowCount": 2,
+				"columnCount": 16
+			},
+			"Posterior": {
+				"vector": [0.1, 0.9],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
+		},
+		{
+			"name": "Female G3b",
+			"stateCount": 4,
+			"stateLabels": ["AA", "aa", "Aa", "aA"],
+			"isInstantiated": false,
+			"isRootNode": true,
+			"CPT": {
+				"matrix": [
+					[1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+					[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+				],
+				"rowCount": 2,
+				"columnCount": 16
+			},
+			"Posterior": {
+				"vector": [0.1, 0.9],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
+		}, {
+			"name": "Male G3b",
+			"stateCount": 4,
+			"stateLabels": ["AA", "aa", "Aa", "aA"],
+			"isInstantiated": false,
+			"isRootNode": true,
+			"CPT": {
+				"matrix": [
+					[1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+					[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+				],
+				"rowCount": 2,
+				"columnCount": 16
+			},
+			"Posterior": {
+				"vector": [0.1, 0.9],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
+		}, {
+			"name": "Male Parent of G3a",
+			"stateCount": 4,
+			"stateLabels": ["AA", "aa", "Aa", "aA"],
+			"isInstantiated": false,
+			"isRootNode": true,
+			"CPT": {
+				"matrix": [
+					[1, 0],
+					[0, 1]
+				],
+				"rowCount": 2,
+				"columnCount": 2
+			},
+			"Posterior": {
+				"vector": [0.1, 0.9],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
+		},
+		{
+			"name": "Female Parent of G3b",
+			"stateCount": 4,
+			"stateLabels": ["AA", "aa", "Aa", "aA"],
+			"isInstantiated": false,
+			"isRootNode": true,
+			"CPT": {
+				"matrix": [
+					[1, 0],
+					[0, 1]
+				],
+				"rowCount": 2,
+				"columnCount": 2
+			},
+			"Posterior": {
+				"vector": [0.1, 0.9],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
+		}
+	],
+	"LinkList": [{
+			"endpointnames": ["Male G1", "Male 1 G2"]
+		},
+		{
+			"endpointnames": ["Male G1", "Male 2 G2"]
+		},
+		{
+			"endpointnames": ["Male G1", "Female 1 G2"]
+		},
+		{
+			"endpointnames": ["Male G1", "Female 2 G2"]
+		},
+		{
+			"endpointnames": ["Female G1", "Male 1 G2"]
+		},
+		{
+			"endpointnames": ["Female G1", "Male 2 G2"]
+		},
+		{
+			"endpointnames": ["Female G1", "Female 1 G2"]
+		},
+		{
+			"endpointnames": ["Female G1", "Female 2 G2"]
+		},
+		{
+			"endpointnames": ["Male Parent of G3a", "Female 1 G3a"]
+		},
+		{
+			"endpointnames": ["Male Parent of G3a", "Female 2 G3a"]
+		},
+		{
+			"endpointnames": ["Male Parent of G3a", "Male G3a"]
+		},
+		{
+			"endpointnames": ["Female 1 G2", "Female 1 G3a"]
+		},
+		{
+			"endpointnames": ["Female 1 G2", "Female 2 G3a"]
+		},
+		{
+			"endpointnames": ["Female 1 G2", "Male G3a"]
+		},
+		{
+			"endpointnames": ["Female Parent of G3b", "Male G3b"]
+		},
+    {
+			"endpointnames": ["Female Parent of G3b", "Female G3b"]
+		},
+    	{
+			"endpointnames": ["Male 2 G2", "Male G3b"]
+		},
+    {
+			"endpointnames": ["Male 2 G2", "Female G3b"]
+		}
+	]
+}
