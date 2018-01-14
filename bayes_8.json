@@ -1,0 +1,61 @@
+{
+	"name": "Fungal Fridge",
+	"NodeList": [{
+			"name": "Food Past Eat-By date",
+			"stateCount": 2,
+			"stateLabels": ["true", "false"],
+			"isInstantiated": false,
+			"isRootNode": true,
+			"CPT": {
+				"matrix": [
+					[1, 0],
+					[0, 1]
+				],
+				"rowCount": 2,
+				"columnCount": 2
+			},
+			"Posterior": {
+				"vector": [0.2, 0.8],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [0.2, 0.8],
+				"size": 2
+			}
+		},
+		{
+			"name": "Fungal Growth",
+			"stateCount": 2,
+			"stateLabels": ["true", "false"],
+			"isInstantiated": false,
+			"isRootNode": false,
+			"CPT": {
+				"matrix": [
+					[0.7, 0.1],
+					[0.3, 0.9]
+				],
+				"rowCount": 2,
+				"columnCount": 2
+			},
+			"Posterior": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
+		}
+	],
+	"LinkList": [{
+		"endpointnames": ["Food Past Eat-By date", "Fungal Growth"]
+	}]
+}
