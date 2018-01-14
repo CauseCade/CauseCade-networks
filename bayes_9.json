@@ -239,7 +239,7 @@
 			"stateCount": 2,
 			"stateLabels": ["true", "false"],
 			"isInstantiated": false,
-			"isRootNode": true,
+			"isRootNode": false,
 			"CPT": {
 				"matrix": [
 					[0.95, 0.6, 0.8, 0.2],
@@ -265,7 +265,7 @@
 			"stateCount": 2,
 			"stateLabels": ["true", "false"],
 			"isInstantiated": false,
-			"isRootNode": true,
+			"isRootNode": false,
 			"CPT": {
 				"matrix": [
 					[0.99, 0.75, 0.6, 0.01],
