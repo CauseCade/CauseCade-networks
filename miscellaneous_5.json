@@ -1,0 +1,152 @@
+{
+	"name": "Cell Migration",
+	"NodeList": [{
+			"name": "ECM Density",
+			"stateCount": 2,
+			"stateLabels": ["high", "low"],
+			"isInstantiated": false,
+			"isRootNode": true,
+			"CPT": {
+				"matrix": [
+					[1, 0],
+					[0, 1]
+				],
+				"rowCount": 2,
+				"columnCount": 2
+			},
+			"Posterior": {
+				"vector": [0.3, 0.7],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [0.5, 0.5],
+				"size": 2
+			}
+		},
+		{
+			"name": "Spatial Confinement",
+			"stateCount": 2,
+			"stateLabels": ["high", "low"],
+			"isInstantiated": false,
+			"isRootNode": true,
+			"CPT": {
+				"matrix": [
+					[1, 0],
+					[0, 1]
+				],
+				"rowCount": 2,
+				"columnCount": 2
+			},
+			"Posterior": {
+				"vector": [0.5, 0.5],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [0.3, 0.7],
+				"size": 2
+			}
+		},
+		{
+			"name": "Mesenchymal Migration Mode",
+			"stateCount": 2,
+			"stateLabels": ["true", "false"],
+			"isInstantiated": false,
+			"isRootNode": false,
+			"CPT": {
+				"matrix": [
+					[0.5, 0.9, 0.1, 0.6],
+					[0.5, 0.1, 0.9, 0.4]
+				],
+				"rowCount": 2,
+				"columnCount": 4
+			},
+			"Posterior": {
+				"vector": [0.5, 0.5],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [0.5, 0.5],
+				"size": 2
+			}
+		},
+		{
+			"name": "Integrin Activation Levels",
+			"stateCount": 2,
+			"stateLabels": ["high", "low"],
+			"isInstantiated": false,
+			"isRootNode": false,
+			"CPT": {
+				"matrix": [
+					[0.95, 0.2],
+					[0.05, 0.8]
+				],
+				"rowCount": 2,
+				"columnCount": 2
+			},
+			"Posterior": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
+		},
+		{
+			"name": "Cell Protrusions",
+			"stateCount": 2,
+			"stateLabels": ["present", "absent"],
+			"isInstantiated": false,
+			"isRootNode": false,
+			"CPT": {
+				"matrix": [
+					[0.9, 0.3],
+					[0.1, 0.7]
+				],
+				"rowCount": 2,
+				"columnCount": 2
+			},
+			"Posterior": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
+		}
+	],
+	"LinkList": [{
+			"endpointnames": ["ECM Density", "Mesenchymal Migration Mode"]
+		},
+		{
+			"endpointnames": ["Spatial Confinement", "Mesenchymal Migration Mode"]
+		},
+		{
+			"endpointnames": ["Mesenchymal Migration Mode", "Integrin Activation Levels"]
+		},
+		{
+			"endpointnames": ["Mesenchymal Migration Mode", "Cell Protrusions"]
+		}
+	]
+}
