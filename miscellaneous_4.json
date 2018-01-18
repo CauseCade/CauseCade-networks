@@ -1,0 +1,122 @@
+{
+	"name": "Lunchtime",
+	"NodeList": [{
+			"name": "You are Hungry",
+			"stateCount": 2,
+			"stateLabels": ["true", "false"],
+			"isInstantiated": false,
+			"isRootNode": true,
+			"CPT": {
+				"matrix": [
+					[1, 0],
+					[0, 1]
+				],
+				"rowCount": 2,
+				"columnCount": 2
+			},
+			"Posterior": {
+				"vector": [0.3, 0.7],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [0.2, 0.8],
+				"size": 2
+			}
+		},
+		{
+			"name": "It's lunchtime",
+			"stateCount": 2,
+			"stateLabels": ["true", "false"],
+			"isInstantiated": false,
+			"isRootNode": true,
+			"CPT": {
+				"matrix": [
+					[1, 0],
+					[0, 1]
+				],
+				"rowCount": 2,
+				"columnCount": 2
+			},
+			"Posterior": {
+				"vector": [0.5, 0.5],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [0.1, 0.9],
+				"size": 2
+			}
+		},
+    {
+			"name": "Head to cafetaria",
+			"stateCount": 2,
+			"stateLabels": ["true", "false"],
+			"isInstantiated": false,
+			"isRootNode": false,
+			"CPT": {
+				"matrix": [
+					[1, 0.8,0.5,0.05],
+					[0, 0.2,0.5,0.95]
+				],
+				"rowCount": 2,
+				"columnCount": 4
+			},
+			"Posterior": {
+				"vector": [0.5, 0.5],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [0.5, 0.5],
+				"size": 2
+			}
+		},
+		{
+			"name": "The lab is empty",
+			"stateCount": 2,
+			"stateLabels": ["true", "false"],
+			"isInstantiated": false,
+			"isRootNode": false,
+			"CPT": {
+				"matrix": [
+					[0.7,0.2],
+					[0.3, 0.8]
+				],
+				"rowCount": 2,
+				"columnCount": 2
+			},
+			"Posterior": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
+		}
+	],
+	"LinkList": [{
+				"endpointnames": ["It's lunchtime", "Head to cafetaria"]
+		},
+    {
+        "endpointnames": ["You are Hungry", "Head to cafetaria"]
+		},
+    {
+			"endpointnames": ["It's lunchtime", "The lab is empty"]
+		}		
+	]
+}
