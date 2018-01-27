@@ -519,7 +519,7 @@
 				"size": 4
 			}
 		},{
-			"name": "F G3a Phenotype",
+			"name": "F G3b Phenotype",
 			"stateCount": 2,
 			"stateLabels": ["positive", "negative"],
 			"isInstantiated": false,
