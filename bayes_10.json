@@ -28,6 +28,32 @@
 				"vector": [1.0, 1.0,1.0,1.0],
 				"size": 4
 			}
+		},{
+			"name": "M G1 Phenotype",
+			"stateCount": 2,
+			"stateLabels": ["positive", "negative"],
+			"isInstantiated": false,
+			"isRootNode": false,
+			"CPT": {
+				"matrix": [
+					[0, 0,0,1],
+					[1, 1,1,0]					
+				],
+				"rowCount": 2,
+				"columnCount": 4
+			},
+			"Posterior": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
 		},
 		{
 			"name": "Female G1",
@@ -57,7 +83,33 @@
 				"vector": [1.0, 1.0,1.0,1.0],
 				"size": 4
 			}
-		}, {
+		},{
+			"name": "F G1 Phenotype",
+			"stateCount": 2,
+			"stateLabels": ["positive", "negative"],
+			"isInstantiated": false,
+			"isRootNode": false,
+			"CPT": {
+				"matrix": [
+					[0, 0,0,1],
+					[1, 1,1,0]					
+				],
+				"rowCount": 2,
+				"columnCount": 4
+			},
+			"Posterior": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
+		},{
 			"name": "Male 1 G2",
 			"stateCount": 4,
 			"stateLabels": ["AA", "aa", "Aa", "aA"],
@@ -84,6 +136,32 @@
 			"PiEvidence": {
 				"vector": [1.0, 1.0,1.0,1.0],
 				"size": 4
+			}
+		},{
+			"name": "M1 G2 Phenotype",
+			"stateCount": 2,
+			"stateLabels": ["positive", "negative"],
+			"isInstantiated": false,
+			"isRootNode": false,
+			"CPT": {
+				"matrix": [
+					[0, 0,0,1],
+					[1, 1,1,0]					
+				],
+				"rowCount": 2,
+				"columnCount": 4
+			},
+			"Posterior": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
 			}
 		}, {
 			"name": "Male 2 G2",
@@ -113,6 +191,32 @@
 				"vector": [1.0, 1.0,1.0,1.0],
 				"size": 4
 			}
+		},{
+			"name": "M2 G2 Phenotype",
+			"stateCount": 2,
+			"stateLabels": ["positive", "negative"],
+			"isInstantiated": false,
+			"isRootNode": false,
+			"CPT": {
+				"matrix": [
+					[0, 0,0,1],
+					[1, 1,1,0]					
+				],
+				"rowCount": 2,
+				"columnCount": 4
+			},
+			"Posterior": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
 		}, {
 			"name": "Female 1 G2",
 			"stateCount": 4,
@@ -141,6 +245,32 @@
 				"vector": [1.0, 1.0,1.0,1.0],
 				"size": 4
 			}
+		},{
+			"name": "F1 G2 Phenotype",
+			"stateCount": 2,
+			"stateLabels": ["positive", "negative"],
+			"isInstantiated": false,
+			"isRootNode": false,
+			"CPT": {
+				"matrix": [
+					[0, 0,0,1],
+					[1, 1,1,0]					
+				],
+				"rowCount": 2,
+				"columnCount": 4
+			},
+			"Posterior": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
 		}, {
 			"name": "Female 2 G2",
 			"stateCount": 4,
@@ -168,6 +298,32 @@
 			"PiEvidence": {
 				"vector": [1.0, 1.0,1.0,1.0],
 				"size": 4
+			}
+		},{
+			"name": "F2 G2 Phenotype",
+			"stateCount": 2,
+			"stateLabels": ["positive", "negative"],
+			"isInstantiated": false,
+			"isRootNode": false,
+			"CPT": {
+				"matrix": [
+					[0, 0,0,1],
+					[1, 1,1,0]					
+				],
+				"rowCount": 2,
+				"columnCount": 4
+			},
+			"Posterior": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
 			}
 		},
 		{
@@ -198,6 +354,32 @@
 				"vector": [1.0, 1.0,1.0,1.0],
 				"size": 4
 			}
+		},{
+			"name": "F1 G3a Phenotype",
+			"stateCount": 2,
+			"stateLabels": ["positive", "negative"],
+			"isInstantiated": false,
+			"isRootNode": false,
+			"CPT": {
+				"matrix": [
+					[0, 0,0,1],
+					[1, 1,1,0]					
+				],
+				"rowCount": 2,
+				"columnCount": 4
+			},
+			"Posterior": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
 		},
 		{
 			"name": "Female 2 G3a",
@@ -227,6 +409,32 @@
 				"vector": [1.0, 1.0,1.0,1.0],
 				"size": 4
 			}
+		},{
+			"name": "F2 G3a Phenotype",
+			"stateCount": 2,
+			"stateLabels": ["positive", "negative"],
+			"isInstantiated": false,
+			"isRootNode": false,
+			"CPT": {
+				"matrix": [
+					[0, 0,0,1],
+					[1, 1,1,0]					
+				],
+				"rowCount": 2,
+				"columnCount": 4
+			},
+			"Posterior": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
 		}, {
 			"name": "Male G3a",
 			"stateCount": 4,
@@ -254,6 +462,32 @@
 			"PiEvidence": {
 				"vector": [1.0, 1.0,1.0,1.0],
 				"size": 4
+			}
+		},{
+			"name": "M G3a Phenotype",
+			"stateCount": 2,
+			"stateLabels": ["positive", "negative"],
+			"isInstantiated": false,
+			"isRootNode": false,
+			"CPT": {
+				"matrix": [
+					[0, 0,0,1],
+					[1, 1,1,0]					
+				],
+				"rowCount": 2,
+				"columnCount": 4
+			},
+			"Posterior": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
 			}
 		},
 		{
@@ -284,6 +518,32 @@
 				"vector": [1.0, 1.0,1.0,1.0],
 				"size": 4
 			}
+		},{
+			"name": "F G3a Phenotype",
+			"stateCount": 2,
+			"stateLabels": ["positive", "negative"],
+			"isInstantiated": false,
+			"isRootNode": false,
+			"CPT": {
+				"matrix": [
+					[0, 0,0,1],
+					[1, 1,1,0]					
+				],
+				"rowCount": 2,
+				"columnCount": 4
+			},
+			"Posterior": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
 		}, {
 			"name": "Male G3b",
 			"stateCount": 4,
@@ -312,6 +572,32 @@
 				"vector": [1.0, 1.0,1.0,1.0],
 				"size": 4
 			}
+		},{
+			"name": "M G3b Phenotype",
+			"stateCount": 2,
+			"stateLabels": ["positive", "negative"],
+			"isInstantiated": false,
+			"isRootNode": false,
+			"CPT": {
+				"matrix": [
+					[0, 0,0,1],
+					[1, 1,1,0]					
+				],
+				"rowCount": 2,
+				"columnCount": 4
+			},
+			"Posterior": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
 		}, {
 			"name": "Male Parent of G3a",
 			"stateCount": 4,
@@ -339,6 +625,32 @@
 			"PiEvidence": {
 				"vector": [1.0, 1.0,1.0,1.0],
 				"size": 4
+			}
+		},{
+			"name": "Pa M G3a Phenotype",
+			"stateCount": 2,
+			"stateLabels": ["positive", "negative"],
+			"isInstantiated": false,
+			"isRootNode": false,
+			"CPT": {
+				"matrix": [
+					[0, 0,0,1],
+					[1, 1,1,0]					
+				],
+				"rowCount": 2,
+				"columnCount": 4
+			},
+			"Posterior": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
 			}
 		},
 		{
@@ -369,10 +681,75 @@
 				"vector": [1.0, 1.0,1.0,1.0],
 				"size": 4
 			}
+		},{
+			"name": "Pa F G3b Phenotype",
+			"stateCount": 2,
+			"stateLabels": ["positive", "negative"],
+			"isInstantiated": false,
+			"isRootNode": false,
+			"CPT": {
+				"matrix": [
+					[0, 0,0,1],
+					[1, 1,1,0]					
+				],
+				"rowCount": 2,
+				"columnCount": 4
+			},
+			"Posterior": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"LambdaEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			},
+			"PiEvidence": {
+				"vector": [1.0, 1.0],
+				"size": 2
+			}
 		}
 	],
 	"LinkList": [{
 			"endpointnames": ["Male G1", "Male 1 G2"]
+		},
+	     	{
+			"endpointnames": ["Male G1", "M G1 Phenotype"]
+		},
+		     {
+			"endpointnames": ["Female G1", "F G1 Phenotype"]
+		},
+		     {
+			"endpointnames": ["Male 1 G2", "M1 G2 Phenotype"]
+		},
+		     {
+			"endpointnames": ["Male 2 G2", "M2 G2 Phenotype"]
+		},
+		  {
+			"endpointnames": ["Female 1 G2", "F1 G2 Phenotype"]
+		},
+	     	{
+			"endpointnames": ["Female 2 G2", "F2 G2 Phenotype"]
+		},
+		     {
+			"endpointnames": ["Female 1 G3a", "F1 G3a Phenotype"]
+		},
+		     {
+			"endpointnames": ["Female 2 G3a", "F2 G3a Phenotype"]
+		},
+		     {
+			"endpointnames": ["Male G3a", "M G3a Phenotype"]
+		},
+		     {
+			"endpointnames": ["Male G3b", "M G3b Phenotype"]
+		},
+		     {
+			"endpointnames": ["Female G3b", "F G3b Phenotype"]
+		},
+		     {
+			"endpointnames": ["Female Parent of G3b", "Pa F G3b Phenotype"]
+		},
+		     {
+			"endpointnames": ["Male Parent of G3a", "Pa M G3a Phenotype"]
 		},
 		{
 			"endpointnames": ["Male G1", "Male 2 G2"]
